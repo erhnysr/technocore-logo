@@ -1,0 +1,29 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap');
+      .wordmark { font-family: 'Space Mono', monospace; font-weight: 700; }
+      .label { font-family: 'Space Mono', monospace; font-weight: 400; letter-spacing: 6px; }
+      .sub { font-family: 'Space Mono', monospace; font-weight: 400; letter-spacing: 4px; }
+    </style>
+    <pattern id="grid3" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1.2" fill="#232A3E" />
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="#0A1128" />
+  <rect width="1600" height="900" fill="url(#grid3)" opacity="0.55" />
+  <text x="100" y="90" class="label" font-size="20" fill="#A1A7AE">FLOP NETWORK &#183; PRODUCT</text>
+  <g transform="translate(390,450)">
+    <line x1="0" y1="0" x2="0" y2="-170" stroke="#32D74B" stroke-width="3" opacity="0.55" />
+    <line x1="0" y1="0" x2="147" y2="85" stroke="#32D74B" stroke-width="3" opacity="0.55" />
+    <line x1="0" y1="0" x2="-147" y2="85" stroke="#32D74B" stroke-width="3" opacity="0.55" />
+    <rect x="-22" y="-192" width="44" height="44" rx="10" fill="#32D74B" />
+    <rect x="125" y="63" width="44" height="44" rx="10" fill="#32D74B" />
+    <rect x="-169" y="63" width="44" height="44" rx="10" fill="#32D74B" />
+    <rect x="-65" y="-65" width="130" height="130" rx="16" fill="#32D74B" />
+    <rect x="-19" y="-19" width="38" height="38" rx="6" fill="#0A1128" />
+  </g>
+  <text x="640" y="430" class="wordmark" font-size="96" fill="#F5F7FA" letter-spacing="6">TECHNOCORE</text>
+  <text x="644" y="485" class="sub" font-size="30" fill="#32D74B">technocore.chat</text>
+  <text x="800" y="800" text-anchor="middle" class="label" font-size="18" fill="#A1A7AE">AGENT NETWORK &#183; VERIFIED MEMORY</text>
+</svg>
